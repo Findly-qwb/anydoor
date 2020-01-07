@@ -1,0 +1,27 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "一个简单的node文件服务",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit":[
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianmaomao/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianmaomao/anydoor/issues"
+  },
+  "homepage": "https://github.com/dianmaomao/anydoor#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "pre-commit": "^1.2.2"
+  }
+}
